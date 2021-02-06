@@ -1,0 +1,289 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #f5f2ef;
+}
+
+/*Inicio do cabeçalio*/
+
+header {
+    background: url(../img/fundo.png) repeat-x;
+    display: flex;
+    height: 158px;
+    align-items: baseline;
+    justify-content: space-around ;
+    line-height: 58px;
+    
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+   
+}
+
+#menu li {
+    
+    margin-left: 15px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #D2691E;
+}
+
+#menu li a:hover {
+    color: #F4A460;
+}
+
+/*Fim do cabeçalio*/
+
+article {
+    max-width: 1090px;
+    margin: -80px auto;
+}
+
+#depoimento {
+    margin-left: 15px;
+}
+
+#container {
+    width: 690px;
+    margin: 100px 150px;
+    box-sizing: border-box;
+    display: flex ;
+}
+
+#left {
+    padding: -20px;
+    width: 50%;
+}
+
+#left h4 {
+    margin-top: -4px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #04374b;
+}
+
+#left iframe {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+#left li {
+    margin-bottom: 5px;
+    list-style-image: url(../img/pergaminho.png);
+}
+
+#left li a {
+    text-decoration: none;
+    color: #D2691E;
+    font-size: 14px;
+}
+
+
+#left li a:hover {
+    text-decoration: underline;
+}
+
+.more {
+    text-decoration: none;
+    color: #D2691E;
+    font-size: 16px;
+}
+
+.more:hover {
+   
+    font-weight: bold;
+}
+
+#right h4 {
+    margin-top: -4px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #04374b;
+}
+
+
+#right iframe {
+    margin-bottom: 30px;
+}
+
+#right p {
+    
+    font-size: 14px;
+    line-height: 1.5;
+    color: #04374b;
+    
+    width: 320px;
+}
+
+#right a {
+
+    text-decoration: none;
+    color: #D2691E;
+    font-size: 16px;
+}
+
+#right a:hover {
+    font-weight: bold;
+}
+
+#side {
+    position: absolute;
+    left: 860px;
+    top: 478px;
+    background: #ede5df;
+    width: 350px;
+    
+}
+
+#date {
+
+    background: #cdc7b5;
+    margin-top: 15px;
+    height: 166px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+#date h4 {
+    text-transform: uppercase;
+    color: #754f38 ;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#date label {
+     
+    color: #754f38;
+    font-size: 13px;
+}
+
+#inputdata {
+
+    width: 142px;
+    text-decoration: none;
+    color: #754f38;
+}
+
+#visit {
+    width: 40px;
+    color: #754f38;
+}
+
+
+#side span {
+    display: block;
+    background: #9d9175;
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 12px  ;
+  
+    cursor: pointer;
+    transition: linear 0.1s;
+}
+
+#side span:hover {
+     transform: translatey(-2px);
+}
+
+#galery {
+    padding-top: 5px;
+    padding-left: 20px;
+    
+}
+
+#galery h4 {
+    text-transform: uppercase;
+    color: #754f38 ;
+    font-weight: bold;
+    margin-bottom: 0px;
+   
+}
+
+#contentphoto {
+
+    width: 310px ;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0px;
+
+}
+
+#contentphoto div {
+    width: 126px;
+    height: 133px;
+    background: url(../img/fundo-foto.png) no-repeat content-box;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+#footer {
+    width: 607px;
+    position: relative;
+    margin-top: 230px;
+    left: 380px;
+}
+
+#footer ul {
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+   
+}
+
+#footer li {
+    
+    margin-left: 15px;
+    
+}
+
+#footer li a {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #D2691E;
+}
+
+#footer li a:hover {
+    color: #F4A460;
+}
+
+#footer  a {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #D2691E;
+}
+
+#footer span {
+
+    font-size: 13px;
+    color: #754f38 ;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
